@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial, Helvetica, sans-serif, fantasy;
+    background-color: #f0f4f8; /* Gris claro */
+    color: #333; /* Gris oscuro */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos para el título principal */
+h1 {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    margin: 30px 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial, Helvetica, sans-serif, fantasy;
+    font-style: oblique;
+    text-transform: capitalize;
+    background-color: #4a90e2; /* Azul claro */
+    padding: 20px; /* Espacio interno alrededor del texto */
+    border: 3px solid #003366; /* Azul marino */
+    border-radius: 15px; /* Borde redondeado */
+    width: fit-content; /* Ajusta el ancho del título al contenido */
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2; /* Espacio entre líneas */
+}
+
+/* Estilos para títulos secundarios */
+h3 {
+    background-color: #9b59b6; /* Morado */
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    margin: 20px auto; /* Centra el título con margen automático */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial, Helvetica, sans-serif, fantasy;
+    font-style: oblique;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 40px; /* Borde redondeado */
+    border: 2px solid #4a148c; /* Morado oscuro */
+    width: 50%; /* Ajusta el ancho del título */
+    max-width: 800px; /* Establece un ancho máximo */
+}
+
+/* Estilos para párrafos */
+p {
+    margin: 30px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial, Helvetica, sans-serif, fantasy;
+    font-weight: 300;
+    font-style: oblique;
+    text-transform: capitalize;
+    background-color: #e0f7fa; /* Azul claro */
+    padding: 20px;
+    border: 2px solid #0097a7; /* Azul oscuro */
+    border-radius: 6px;
+}
+
+/* Estilos para texto destacado */
+span {
+    color: #e74c3c; /* Rojo */
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+/* Estilos para campos de entrada */
+input {
+    background: #ffffff; /* Blanco */
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial, Helvetica, sans-serif, fantasy;
+    font-style: oblique;
+    width: 95%; /* Ajuste para ocupar la mayor parte del contenedor padre */
+    height: 35px; /* Ajuste de altura estándar */
+    padding: 2px; /* Espacio interno para mejor legibilidad */
+    margin: 4px 0 10px 0; /* Separación entre los inputs */
+    border-radius: 8px;
+    border: 1px solid #cccccc; /* Gris claro */
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #f5f5f5; /* Gris claro */
+    width: 400px;
+    padding: 30px;
+    border-radius: 6px; /* Borde redondeado del formulario */
+    margin: auto; /* Centra el formulario en la página */
+    border: 2px solid #333333; /* Gris oscuro */
+}
+
+/* Estilos para imágenes */
+img {
+    display: block; /* Asegura que las imágenes ocupen el espacio del contenedor */
+    max-width: 80%; /* Ajusta el tamaño máximo al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: auto; /* Centra la imagen horizontalmente si es posible */
+    border-radius: 12px; /* Borde redondeado de las imágenes */
+    border: 2px solid #4a148c; /* Morado oscuro */
+}
+
+/* Estilos para enlaces */
+a {
+    background: #dbe6f2; /* Azul claro */
+    text-align: justify;
+    height: auto;
+    width: auto;
+    margin: 10px auto; /* Márgenes superior e inferior automáticos para centrar el enlace horizontalmente */
+    padding: 5px; /* Espacio interno del enlace */
+    border: 2px solid #4a148c; /* Morado oscuro */
+    text-decoration: none;
+    color: #4a148c; /* Morado oscuro */
+    display: inline-block; /* Permite el ajuste de tamaño y el padding en el enlace */
+}

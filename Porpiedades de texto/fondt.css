@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Lorentz";
+    src: url(fondt/BonaNovaSC-Regular.ttf) format("truetype");
+    font-weight: 600;
+}   
+@font-face {
+    font-family: "Lorentz";
+    src: url(fondt/BonaNovaSC-Italic.ttf) format("truetype");
+    font-weight: 400;
+}   
+@font-face {
+    font-family: "Lorentz";
+    src: url(fondt/BonaNovaSC-Bold.ttf) format("truetype");
+    font-weight: 800;
+}   

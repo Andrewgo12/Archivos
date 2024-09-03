@@ -1,0 +1,36 @@
+p{
+    color: black;
+    font-family:Lorentz;
+    font-size: 18px;
+    font-weight: 400;
+    font-style:normal;
+    text-align:justify;
+    line-height: 1.3;
+    letter-spacing:1px;
+    text-transform: capitalize;
+    word-break: break-all;
+}
+h1{
+    color:crimson;
+    text-transform: uppercase;
+text-align: center;
+font: size 60px;
+font-family: 'Lorentz';
+}
+span{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration:overline;
+    color: red;
+}
+strong{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: overline;
+    color:black ;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
