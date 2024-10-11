@@ -1,3 +1,0 @@
-Algoritmo ciclos
-	
-FinAlgoritmo

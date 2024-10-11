@@ -1,21 +1,30 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title> width y Heigth</title>
-        <link rel="stylesheet" href="Styles.css"
-        
+<!DOCTYPE html>
+<html lang="es">
 
-    </head>
-    <body>
-    <div> 
-        <h1>Titulo</h1>
-        <form>
-            <input type="text" placeholder="Nombre Completo"required name="Nombre"> 
-            <input type="email" placeholder="Email"required name="Email">
-            <input type="password" placeholder="password" required name="password">
-            <input type="submit" value="Enviar";
-        </form>
-        
-    </div>
-    </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Semántico</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="nombre">Texto Completo:</label>
+                <input type="text" id="nombre" placeholder="Nombre Completo" required name="Nombre">
+                <p>sdasdasda <abbr>Texto </abbr> asdasdasd</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" required name="Email">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Contraseña" required name="password">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

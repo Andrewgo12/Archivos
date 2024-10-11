@@ -1,4 +1,8 @@
 {
-    "AllAutocomplete.showCurrentDocument": false,
-    "commentTranslate.multiLineMerge": true
+  "AllAutocomplete.showCurrentDocument": false,
+  "commentTranslate.multiLineMerge": true,
+  "CodeGPT.Autocomplete.enabled": true,
+  "CodeGPT.Autocomplete.suggestionDelay": 100,
+  "CodeGPT.Autocomplete.maxTokens": 16,
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
 }

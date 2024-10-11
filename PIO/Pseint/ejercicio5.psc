@@ -1,4 +1,0 @@
-Algoritmo relacionales
-	
-	
-FinAlgoritmo
